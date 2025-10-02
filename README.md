@@ -28,10 +28,10 @@ Para poner en marcha este proyecto en tu propia máquina, sigue estos pasos:
     ```
 
 4.  **Configura la Base de Datos:**
-    *Esta aplicación está configurada para usar PostgreSQL[cite: 23]. Asegúrate de tener un servidor de PostgreSQL en ejecución y actualiza la cadena de conexión en el archivo `application.py` con tus credenciales.*
+    *Esta aplicación está configurada para usar PostgreSQL. Asegúrate de tener un servidor de PostgreSQL en ejecución y actualiza la cadena de conexión en el archivo `application.py` con tus credenciales.*
 
 5.  **Ejecuta la aplicación:**
-    *La aplicación está configurada para ejecutarse en el puerto 80[cite: 22]. En sistemas como Linux o macOS, necesitarás privilegios de administrador para usar este puerto.*
+    *La aplicación está configurada para ejecutarse en el puerto 80. En sistemas como Linux o macOS, necesitarás privilegios de administrador para usar este puerto.*
     ```bash
     sudo python3 application.py
     ```
@@ -43,5 +43,5 @@ Para poner en marcha este proyecto en tu propia máquina, sigue estos pasos:
 
 * **Backend:** Python
 * **Framework:** Flask
-* [cite_start]**Base de Datos:** PostgreSQL [cite: 23]
+* **Base de Datos:** PostgreSQL
 * **ORM:** Flask-SQLAlchemy
